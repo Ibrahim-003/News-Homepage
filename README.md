@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repo](https://github.com/Ibrahim-003/juniorProject_4)
+- Live Site URL: [landing page](https://ibrahim-003.github.io/juniorProject_4/)
 
 ### Built with
 
