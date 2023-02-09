@@ -1,0 +1,48 @@
+:root {
+    --soft-orange: hsl(35, 77%, 62%);
+    --soft-red: hsl(5, 85%, 63%);
+    --off-white: hsl(36, 100%, 99%);
+    --grayish-blue: hsl(233, 8%, 79%);
+    --dark-grayish-blue: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);  
+    --fz-p: 15px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: var(--off-white);
+}
+
+a {
+    color: var(--dark-grayish-blue);
+    text-decoration: none;
+}
+
+p {
+    font-size: var(--fz-p);
+    line-height: 1.6;
+}
+
+div {
+    width: 100%;
+}
