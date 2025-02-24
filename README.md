@@ -1,52 +1,43 @@
-# Frontend Mentor - News homepage solution
+# News Homepage
 
-This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl).
+## Descripción
 
-## Table of contents
+Este proyecto es una página de inicio de noticias, diseñada para mostrar artículos de noticias recientes en un formato atractivo y organizado.
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
+## Características
 
+- Diseño responsivo y atractivo
+- Artículos de noticias con imágenes y descripciones
+- Organización en una cuadrícula visualmente agradable
 
-## Overview
+## Vista Previa
 
-### The challenge
+![Captura del Proyecto](./src/assets/desktop-preview.png)
 
-Users should be able to:
+## Tecnologías Usadas
 
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
--Interact with buttons in mobile navigation
+- **HTML5**
+- **CSS3**
 
-### Screenshot
+## Instalación
 
-![](./screenshot/desktop.png)
-  
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/Ibrahim-003/News-Homepage.git
+    ```
 
-### Links
+2. Navega al directorio del proyecto:
+    ```bash
+    cd News-Homepage
+    ```
 
-- Solution URL: [Repo](https://github.com/Ibrahim-003/juniorProject_4)
-- Live Site URL: [landing page](https://ibrahim-003.github.io/juniorProject_4/)
+3. Abre el archivo `index.html` en tu navegador web.
 
-### Built with
+## Uso
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- JS
+1. Abre el archivo `index.html` en tu navegador.
+2. La página de inicio de noticias se mostrará en la interfaz.
 
-### What I learned
+## Autor 👨‍💻
 
-Implement JS for mobile navigation control, showing and hiding the navigation bar depending on the user's interaction with the buttons.
-
-## Author
-
--Ibrahim Almeyda 
-- Frontend Mentor - [@IbrahimA](https://www.frontendmentor.io/profile/Ibrahim-003)
+Desarrollado por **[Ibrahim Almeyda](https://github.com/Ibrahim-003)**.

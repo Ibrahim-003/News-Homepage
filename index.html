@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/images/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <title>Frontend Mentor | News homepage</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <script src="./src/js/index.js" defer></script>
+    <title>News Homepage</title>
 </head>
 
 <body class="root">
     <header class="header">
         <figure>
-            <img src="./assets/images/logo.svg" alt="logo de la empresa" title="regresar al inicio">
+            <img src="./src/assets/images/logo.svg" alt="logo de la empresa" title="regresar al inicio">
             <figcaption class="figcaption">Logo de la empresa, enlace al inicio de la pagina</figcaption>
         </figure>
         <nav class="nav_desktop">
@@ -27,13 +28,13 @@
             </ul>
         </nav>
         <button type="button" id="mobile_btn" class="mobile_btn">
-            <svg class="menu-open" width="40" height="17" xmlns="http://www.w3.org/2000/svg">
+            <svg class="menu-open" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
                 <g fill="#00001A" fill-rule="evenodd">
                     <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
                     <path d="M0 0h40v3H0z" />
                 </g>
             </svg>
-            <svg class="menu-close close" width="32" height="31" xmlns="http://www.w3.org/2000/svg">
+            <svg class="menu-close close" width="31" height="31" xmlns="http://www.w3.org/2000/svg">
                 <g fill="#00001A" fill-rule="evenodd">
                     <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z" />
                     <path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z" />
@@ -53,8 +54,8 @@
     <main class="main grid_container">
         <div class="hero_img grid_section1">
             <picture>
-                <source srcset="./assets/images/image-web-3-desktop.jpg" media="(min-width: 1024px)">
-                <img src="./assets/images/image-web-3-mobile.jpg" alt="#">
+                <source srcset="./src/assets/images/image-web-3-desktop.jpg" media="(min-width: 1024px)">
+                <img src="./src/assets/images/image-web-3-mobile.jpg" alt="#">
             </picture>
         </div>
         <h1 class="main_title grid_section2">The Bright Future of Web 3.0?</h1>
@@ -64,7 +65,7 @@
                 people.
                 But is it really fulfilling its promise?</p>
                 <a href="#" class="read_more">Read more</a>
-            </article>
+        </article>
         <aside class="main_aside grid_section4">
             <h2>New</h2>
             <article class="aside_article">
@@ -83,7 +84,7 @@
             </article>
         </aside>
         <article class="main_article grid_section5">
-            <img src="./assets/images/image-retro-pcs.jpg" alt="pc retro">
+            <img src="./src/assets/images/image-retro-pcs.jpg" alt="pc retro">
             <article>
                 <h2>01</h2>
                 <h3>Reviving Retro PCs</h3>
@@ -91,7 +92,7 @@
             </article>
         </article>
         <article class="main_article grid_section6">
-            <img src="./assets/images/image-top-laptops.jpg" alt="laptop keyboard">
+            <img src="./src/assets/images/image-top-laptops.jpg" alt="laptop keyboard">
             <article>
                 <h2>02</h2>
                 <h3>Top 10 Laptops of 2022</h3>
@@ -99,7 +100,7 @@
             </article>
         </article>
         <article class="main_article grid_section7">
-            <img src="./assets/images/image-gaming-growth.jpg" alt="gaming-growth">
+            <img src="./src/assets/images/image-gaming-growth.jpg" alt="gaming-growth">
             <article>
                 <h2>03</h2>
                 <h3>The Growth of Gaming</h3>
@@ -107,7 +108,6 @@
             </article>
         </article>
     </main>
-    <script src="js/index.js"></script>
 </body>
 
 </html>
